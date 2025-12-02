@@ -1,0 +1,17 @@
+vendor/
+node_modules/
+bootstrap/cache/*.php
+
+npm-debug.log
+yarn-error.log
+
+.env
+.env.example
+
+.DS_Store
+
+.git
+.gitignore
+
+public/build/
+storage/logs
