@@ -33,9 +33,9 @@
 - POST [/api/holds](http://localhost:8080/api/holds) { product_id, qty }
 
 ### Orders
-- GET [/api/orders](http://localhost:8080/api/orders) { hold_id }
+- GET [/api/orders](http://localhost:8080/api/orders) 
 - GET [/api/orders/{id}](http://localhost:8080/api/orders/{id})
-- POST [/api/orders](http://localhost:8080/api/orders)
+- POST [/api/orders](http://localhost:8080/api/orders) { hold_id }
 - PUT [/api/orders/{id}/payment/webhook](http://localhost:8080/api/orders/{id}/payment/webhook) { status: pending, paid, failed, cancelled }
 
 
